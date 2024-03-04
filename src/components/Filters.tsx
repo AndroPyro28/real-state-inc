@@ -5,7 +5,7 @@ type FiltersProps = {
   setName: React.Dispatch<React.SetStateAction<string>>;
 }
 
-const Filters:React.FC<FiltersProps> = ({setLocation, setName}) => {
+const Filters:React.FC<FiltersProps> = ({setName}) => {
 
   return (
     <div className="flex items-center justify-center gap-x-5 py-20 w-full">

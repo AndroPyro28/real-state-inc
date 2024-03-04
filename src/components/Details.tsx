@@ -1,5 +1,4 @@
 import { featured } from '@/data'
-import React from 'react'
 import Condo from './Condo'
 
 
